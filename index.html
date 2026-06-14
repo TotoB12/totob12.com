@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A directional launchpad for totob12.com services across public endpoints and Tailnet-only tools."
+    />
+    <meta name="theme-color" content="#f7f8f5" />
+    <title>totob12.com</title>
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="preconnect" href="https://upload.wikimedia.org" />
+    <link rel="preconnect" href="https://www.vectorlogo.zone" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./services.js"></script>
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <main>
+        <section class="launcher" id="services" aria-label="Launcher">
+          <div class="launcher-head">
+            <form class="toolbar" role="search">
+              <label class="search-box" for="service-search">
+                <span aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false">
+                    <path d="m21 21-4.35-4.35m2.1-5.4a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z" />
+                  </svg>
+                </span>
+                <input
+                  id="service-search"
+                  autocomplete="off"
+                  type="search"
+                  placeholder="Find a service"
+                />
+              </label>
+
+              <div class="segment-control" role="group" aria-label="Filter links">
+                <button class="segment is-active" type="button" data-filter="all">All</button>
+                <button class="segment" type="button" data-filter="public">Public</button>
+                <button class="segment" type="button" data-filter="tailnet">Tailnet</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="service-list" id="service-list" aria-live="polite"></div>
+          <p class="empty-state" id="empty-state" hidden>No matches.</p>
+        </section>
+      </main>
+    </div>
+
+    <template id="service-card-template">
+      <article class="service-card">
+        <a class="service-main" target="_blank" rel="noopener noreferrer">
+          <span class="icon-wrap">
+            <img alt="" loading="lazy" decoding="async" />
+            <span class="fallback-icon" aria-hidden="true"></span>
+          </span>
+          <span class="service-copy">
+            <span class="service-title-row">
+              <span class="service-name"></span>
+              <span class="access-pill"></span>
+            </span>
+            <span class="service-description"></span>
+            <span class="service-url"></span>
+          </span>
+          <span class="open-indicator" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M7 17 17 7m0 0H9m8 0v8" />
+            </svg>
+          </span>
+        </a>
+        <button class="copy-button" type="button" aria-label="Copy service link">
+          <svg viewBox="0 0 24 24" focusable="false" aria-hidden="true">
+            <path d="M8 8V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2" />
+            <path d="M6 8h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2Z" />
+          </svg>
+        </button>
+      </article>
+    </template>
+  </body>
+</html>
