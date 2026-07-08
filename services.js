@@ -17,7 +17,7 @@ window.launchpadServices = [
   },
   {
     name: "Vaultwarden",
-    url: "http://vaultwarden.tahr-vibe.ts.net",
+    url: "https://vaultwarden.tahr-vibe.ts.net",
     access: "tailnet",
     description: "Private Bitwarden-compatible vault",
     group: "Security",
@@ -36,8 +36,28 @@ window.launchpadServices = [
     tags: ["notes", "workspace"],
   },
   {
+    name: "Dawarich",
+    url: "https://dawarich.tahr-vibe.ts.net",
+    access: "tailnet",
+    description: "Private location history",
+    group: "Maps",
+    enabled: true,
+    icon: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/dawarich.svg",
+    tags: ["location", "maps", "owntracks"],
+  },
+  {
+    name: "OwnTracks API",
+    url: "https://dawarich.tahr-vibe.ts.net/api/owntracks",
+    access: "tailnet",
+    description: "HTTPS upload endpoint for OwnTracks",
+    group: "Maps",
+    enabled: true,
+    icon: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/dawarich.svg",
+    tags: ["location", "api", "owntracks", "dawarich"],
+  },
+  {
     name: "Calibre-Web",
-    url: "http://calibre.tahr-vibe.ts.net",
+    url: "https://calibre.tahr-vibe.ts.net",
     access: "tailnet",
     description: "Books and library shelf",
     group: "Knowledge",
@@ -47,7 +67,7 @@ window.launchpadServices = [
   },
   {
     name: "Kiwix",
-    url: "http://kiwix.tahr-vibe.ts.net",
+    url: "https://kiwix.tahr-vibe.ts.net",
     access: "tailnet",
     description: "Offline Wikipedia archive",
     group: "Knowledge",
@@ -57,7 +77,7 @@ window.launchpadServices = [
   },
   {
     name: "Speedtest Tracker",
-    url: "http://speedtest.tahr-vibe.ts.net",
+    url: "https://speedtest.tahr-vibe.ts.net",
     access: "tailnet",
     description: "Network speed history",
     group: "Operations",
@@ -67,7 +87,7 @@ window.launchpadServices = [
   },
   {
     name: "Dispatcharr",
-    url: "http://dispatcharr.tahr-vibe.ts.net",
+    url: "https://dispatcharr.tahr-vibe.ts.net",
     access: "tailnet",
     description: "TV stream dispatching",
     group: "Media",
@@ -77,7 +97,7 @@ window.launchpadServices = [
   },
   {
     name: "Tautulli",
-    url: "http://tautulli.tahr-vibe.ts.net",
+    url: "https://tautulli.tahr-vibe.ts.net",
     access: "tailnet",
     description: "Plex activity and analytics",
     group: "Media",
@@ -87,7 +107,7 @@ window.launchpadServices = [
   },
   {
     name: "qBittorrent",
-    url: "http://torrent.tahr-vibe.ts.net",
+    url: "https://torrent.tahr-vibe.ts.net",
     access: "tailnet",
     description: "Torrent client console",
     group: "Downloads",
@@ -97,7 +117,7 @@ window.launchpadServices = [
   },
   {
     name: "Uptime Kuma",
-    url: "http://uptime.tahr-vibe.ts.net",
+    url: "https://uptime.tahr-vibe.ts.net",
     access: "tailnet",
     description: "Service uptime monitor",
     group: "Operations",
@@ -107,7 +127,7 @@ window.launchpadServices = [
   },
   {
     name: "TileServer",
-    url: "http://map.tahr-vibe.ts.net",
+    url: "https://map.tahr-vibe.ts.net",
     access: "tailnet",
     description: "Private map tiles",
     group: "Maps",
