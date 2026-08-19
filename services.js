@@ -42,7 +42,7 @@ window.launchpadServices = [
     description: "Private DNS controls with DoH, DoT, profiles, and filtering",
     group: "Network",
     enabled: true,
-    icon: "https://moondns.io/favicon.svg",
+    icon: "./assets/icons/moondns.svg",
     tags: ["dns", "privacy", "filtering", "doh", "dot"],
   },
   {
