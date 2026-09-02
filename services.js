@@ -136,6 +136,16 @@ window.launchpadServices = [
     tags: ["books", "library"],
   },
   {
+    name: "BookOrbit",
+    url: "https://bookorbit.tahr-vibe.ts.net",
+    access: "tailnet",
+    description: "Private ebook library and reader",
+    group: "Knowledge",
+    enabled: true,
+    icon: "https://bookorbit.tahr-vibe.ts.net/pwa-icon-source.svg",
+    tags: ["books", "ebooks", "library", "reader"],
+  },
+  {
     name: "Kiwix",
     url: "https://kiwix.tahr-vibe.ts.net",
     access: "tailnet",
