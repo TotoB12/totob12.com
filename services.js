@@ -32,7 +32,7 @@ window.launchpadServices = [
     description: "Whole-connectome fruit-fly observatory",
     group: "Science",
     enabled: true,
-    icon: "https://fly.totob12.com/favicon.svg",
+    icon: "https://raw.githubusercontent.com/TotoB12/fly-umwelt/main/favicon.svg",
     tags: ["science", "simulation", "connectome", "fruit fly"],
   },
   {
