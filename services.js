@@ -142,7 +142,7 @@ window.launchpadServices = [
     description: "Private ebook library and reader",
     group: "Knowledge",
     enabled: true,
-    icon: "https://bookorbit.tahr-vibe.ts.net/pwa-icon-source.svg",
+    icon: "https://raw.githubusercontent.com/bookorbit/bookorbit/main/client/public/pwa-icon-source.svg",
     tags: ["books", "ebooks", "library", "reader"],
   },
   {
