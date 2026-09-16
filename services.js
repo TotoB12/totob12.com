@@ -96,6 +96,16 @@ window.launchpadServices = [
     tags: ["clock", "watch", "time", "analogue"],
   },
   {
+    name: "msg",
+    url: "https://msg.totob12.com",
+    access: "public",
+    description: "Peer-to-peer chat and file transfer",
+    group: "Communication",
+    enabled: true,
+    icon: "https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/message-text-outline.svg",
+    tags: ["chat", "messaging", "peer-to-peer", "file transfer"],
+  },
+  {
     name: "Drive Dash",
     url: "https://drived.totob12.com",
     access: "public",
