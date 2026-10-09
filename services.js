@@ -375,4 +375,14 @@ window.launchpadServices = [
     icon: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/threadfin.svg",
     tags: ["iptv", "streaming", "m3u"],
   },
+  {
+    name: "Bella",
+    url: "https://t.me/bellab12_bot",
+    access: "tailnet",
+    description: "Contact Bella",
+    group: "Home",
+    enabled: true,
+    icon: "https://cdn4.telesco.pe/file/UEud0yXwUcLXzQEVvFyd7sou2RZ3XrI0Wv-N-8XU4Dk_bbBFrWKw8l7XXcVKLI_rsFBuL4Em8s1wCghnZGK4s9P4P4g0S3GxgZkmXsqf7gyIrvu21kna1EwRJ8U1DhnqX9FearNl83fXjonVNEs8DEHjSz0y6Y-GNiVo3lkRmgWpuoewVavriWjijjOhOElsZP070S1QFew0pEASxo451t4PmX9OPd8Ae2dnppOtWpAFq5oN5XSRsEu7WJ-yMqhTQlBs54vmHjFEfxYgRi7gKsIavNNRk7IRUP7HwszeJWGg7lUfaiewQ9aS8e-M4VPfhiMALo381p7HXNwlGBfnRA.jpg",
+    tags: ["bella", "ai", "telegram"],
+  },
 ];
