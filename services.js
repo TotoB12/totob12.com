@@ -422,7 +422,7 @@ window.launchpadServices = [
     description: "Drawing canvas with browser-local drawings and comments",
     group: "Creative",
     enabled: true,
-    icon: "https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/draw.svg",
+    icon: "https://draw.totob12.com/squiggle.png",
     tags: ["drawing", "canvas", "whiteboard", "comments"],
   },
   {
@@ -442,7 +442,7 @@ window.launchpadServices = [
     description: "File and text transfer using animated QR codes",
     group: "Utilities",
     enabled: true,
-    icon: "https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/qrcode.svg",
+    icon: "https://qr.totob12.com/raptorqr.svg",
     tags: ["qr", "file transfer", "text", "offline"],
   },
   {
@@ -452,7 +452,7 @@ window.launchpadServices = [
     description: "Interactive fluid simulation with mobile motion input",
     group: "Experiments",
     enabled: true,
-    icon: "https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/waves.svg",
+    icon: "https://fluid.totob12.com/favicon-32x32.png",
     tags: ["fluid", "simulation", "motion", "mobile"],
   },
   {
@@ -472,7 +472,7 @@ window.launchpadServices = [
     description: "Torn City trading and travel-route planner",
     group: "Games",
     enabled: true,
-    icon: "https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/airplane.svg",
+    icon: "https://torn.totob12.com/torn-travel-icon.png",
     tags: ["torn", "travel", "trading", "planner"],
   },
   {
@@ -492,7 +492,7 @@ window.launchpadServices = [
     description: "Local-first Markdown notes",
     group: "Knowledge",
     enabled: true,
-    icon: "https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/note-text-outline.svg",
+    icon: "https://haptic.totob12.com/favicon.ico",
     tags: ["notes", "markdown", "editor", "local-first"],
   },
   {
@@ -502,7 +502,7 @@ window.launchpadServices = [
     description: "EPITA co-op tower-climbing game project",
     group: "Games",
     enabled: true,
-    icon: "https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/castle.svg",
+    icon: "https://ascendant-trials.com/assets/player/player-favicon.png",
     tags: ["epita", "co-op", "game", "tower", "project"],
   },
 ];
