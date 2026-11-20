@@ -106,6 +106,16 @@ window.launchpadServices = [
     tags: ["minesweeper", "game", "puzzle", "mines"],
   },
   {
+    name: "Flappy Bird",
+    url: "https://flappy.totob12.com",
+    access: "public",
+    description: "Classic tap-to-fly arcade game",
+    group: "Games",
+    enabled: true,
+    icon: "https://cdn.jsdelivr.net/npm/@mdi/svg@7.4.47/svg/bird.svg",
+    tags: ["flappy bird", "bird", "game", "arcade"],
+  },
+  {
     name: "Clock",
     url: "https://clock.totob12.com",
     access: "public",
